@@ -1,42 +1,54 @@
-
-<!DOCTYPE html>  
-<html>  
-<head>  
-  <style>  
-    body {  
-      background-color: #008cdd; /* 蓝绿色背景 */  
-      font-family: Arial, sans-serif;  
-      overflow: hidden;  
-    }  
+<!DOCTYPE html>    
+<html>    
+<head>    
+  <style>    
+    body {    
+      background-color: #008cdd; /* 蓝绿色背景 */    
+      font-family: Arial, sans-serif;    
+    }    
   
-    .container {  
-      position: absolute;  
-      top: 50%;  
-      left: 50%;  
-      transform: translate(-50%, -50%);  
-      text-align: center;  
-      background-color: #ffffff; /* 白色背景 */  
-      padding: 20px;  
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
-    }  
+    .container {    
+      display: flex;    
+      justify-content: flex-start;    
+    }    
   
-    img {  
-      max-width: 300px; /* 照片最大宽度 */  
-      border-radius: 50%; /* 圆形照片 */  
-      transition: transform 0.3s ease-in-out; /* 鼠标滑动特效 */  
-    }  
+    .left {    
+      width: 33.33%;    
+      display: flex;    
+      flex-direction: column;    
+      align-items: center;    
+    }    
   
-    img:hover {  
-      transform: scale(1.1); /* 鼠标悬停时放大照片 */  
-    }  
-  </style>  
-</head>  
-<body>  
-  <div class="container">  
-    <h1>你好，我是赵帮树</h1>  
-    <img src="img.jpg" alt="我的照片" />  
-    <p>学习javaweb很高兴</p>  
-    <p>我喜欢小说，历史</p>  
-  </div>  
-</body>  
+    .right {    
+      width: 66.67%;    
+      display: flex;    
+      justify-content: space-around;    
+      align-items: center;    
+    }    
+  
+    img {    
+      max-width: 300px; /* 照片最大宽度 */    
+      border-radius: 50%; /* 圆形照片 */    
+      transition: transform 0.3s ease-in-out; /* 鼠标滑动特效 */    
+    }    
+    
+    img:hover {    
+      transform: scale(1.1); /* 鼠标悬停时放大照片 */    
+    }    
+  </style>    
+</head>    
+<body>    
+  <div class="container">    
+    <div class="left">    
+      <img src="img.jpg" alt="我的照片" />    
+      <p>名字：赵帮树</p>    
+      <p>班级：计科213</p>    
+      <p>兴趣：小说，历史</p>    
+    </div>    
+    <div class="right">    
+      <img src="[图片1的URL]" alt="图片1" />    
+      <img src="[图片2的URL]" alt="图片2" />    
+    </div>    
+  </div>    
+</body>    
 </html>
