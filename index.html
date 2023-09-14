@@ -1,54 +1,70 @@
-<!DOCTYPE html>    
-<html>    
-<head>    
-  <style>    
-    body {    
-      background-color: #008cdd; /* 蓝绿色背景 */    
-      font-family: Arial, sans-serif;    
-    }    
-  
-    .container {    
-      display: flex;    
-      justify-content: flex-start;    
-    }    
-  
-    .left {    
-      width: 33.33%;    
-      display: flex;    
-      flex-direction: column;    
-      align-items: center;    
-    }    
-  
-    .right {    
-      width: 66.67%;    
-      display: flex;    
-      justify-content: space-around;    
-      align-items: center;    
-    }    
-  
-    img {    
-      max-width: 300px; /* 照片最大宽度 */    
-      border-radius: 50%; /* 圆形照片 */    
-      transition: transform 0.3s ease-in-out; /* 鼠标滑动特效 */    
-    }    
-    
-    img:hover {    
-      transform: scale(1.1); /* 鼠标悬停时放大照片 */    
-    }    
-  </style>    
-</head>    
-<body>    
-  <div class="container">    
-    <div class="left">    
-      <img src="img.jpg" alt="我的照片" />    
-      <p>名字：赵帮树</p>    
-      <p>班级：计科213</p>    
-      <p>兴趣：小说，历史</p>    
-    </div>    
-    <div class="right">    
-      <img src="R.jpg" alt="图片1" />    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(photo.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .box {
+            color: rgb(6, 173, 151);
+            width: 450px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+            font-family: 'Century Gothic', sans-serif;
+        }
+
+        .box .box-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .box h1 {
+            font-size: 50px;
+            letter-spacing: 4px;
+            font-weight: 400;
+        }
+
+        .box h2 {
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: 300;
+
+        }
+
+        .one {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: grey;
+        }
+
+        .one:hover {
+            color: rgb(6, 173, 151);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="QQ图片20200914221312.jpg" alt="" class="box-img">
+        <h1 class="name">赵帮树/h1>
+        <h2>Javaweb</h2>
+        <h3>计科213</h3></h3>
+        <h3>兴趣：小说，历史</h3>
    
-    </div>    
-  </div>    
-</body>    
+    </div>
+</body>
+
 </html>
