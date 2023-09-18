@@ -1,0 +1,25 @@
+.navbar {
+    width: 700px;
+
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    top: 1100px;
+    
+    transform: translate(-50%, -50%);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: red;
+}
+ 

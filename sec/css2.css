@@ -1,0 +1,23 @@
+.div-T1 {
+    background-color: rgb(72, 102, 185);
+    width: 200px;
+    height: 1000px;
+    float: left;
+ }.div-T2 {
+    background-color: rgb(57, 131, 115);
+    width: 800px;
+    height: 1000px;
+    float: left;
+ }
+ body {
+    /* 子元素位置 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 重置样式 */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}

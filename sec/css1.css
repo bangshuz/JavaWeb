@@ -1,0 +1,114 @@
+body {
+    /* 子元素位置 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 重置样式 */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 100px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.div-F {
+ 
+
+   
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+    box-shadow: 30px;
+    height: 800px;
+    background-color: rgb(42, 102, 122);
+}
+.div-S1 {
+    background-color: rgb(42, 102, 122);
+    width: 1000px;
+    height: 200px;
+
+}
+ .div-S2 {
+    background-color: rgb(51, 155, 77);
+    width: 1000px;
+    height: 600px;
+    
+}
+.div-S3 {
+   background-color: rgb(72, 102, 185);
+   width: 1000px;
+   height: 200px;
+   
+}.div-Fo1 {
+    background-color: rgb(23, 37, 230);
+    width: 1000px;
+    height: 150px;
+   
+ }
+.div-Fo2 {
+  
+    width: 1000px;
+    height: 600px;
+    
+ }
+.div-Fo3 {
+    background-color: rgb(28, 12, 243);
+    width: 1000px;
+    height: 100px;
+    
+ }
+ .div-Fo2-1 {
+    background-color: rgb(74, 64, 216);
+    width: 200px;
+    height: 600px;
+    float: left;
+    
+ } .div-Fo2-2 {
+    background-color: rgb(57, 114, 124);
+    width: 800px;
+    height: 600px;
+    float: right;
+ }
+ .div-Fi1 {
+    background-color: rgb(36, 63, 139);
+    width: 1000px;
+    height: 200px;
+ 
+ } .div-Fi2 {
+    background-color: rgb(3, 27, 247);
+    width: 1000px;
+    height: 150px;
+ 
+ } .div-Fi3 {
+    
+    width: 1000px;
+    height: 550px;
+ 
+ } .div-Fi3-1 {
+    background-color: rgb(159, 211, 176);
+    float: left;
+    width: 300px;
+    height: 550px;
+   
+ } .div-Fi3-2 {
+    background-color: rgb(25, 219, 112);
+    width: 400px;
+    height: 550px;
+    float: left;
+    
+ }.div-Fi3-3 {
+    background-color: rgb(86, 149, 160);
+    width: 300px;
+    height: 550px;
+    float: left;
+ }.div-Fi4 {
+    background-color: rgb(74, 106, 211);
+    width: 1000px;
+    height: 120px;
+    }
